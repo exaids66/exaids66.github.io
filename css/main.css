@@ -1191,7 +1191,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #59bfac;
+  background: #7f0954;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1434,7 +1434,7 @@ pre .javascript .function {
   width: 100%;
 }
 .with-love {
-  color: #ff0000;
+  color: #808080;
   display: inline-block;
   margin: 0 5px;
 }
@@ -1984,6 +1984,13 @@ pre .javascript .function {
 }
 #qr p {
   text-align: center;
+}
+.post-copyright {
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  list-style: none;
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
 }
 .followme {
   align-items: center;
@@ -2779,11 +2786,4 @@ ul.breadcrumb li + li:last-child {
   height: 250px;
   width: 300px;
   object-fit: cover;
-}
-.post {
-  margin-top: 60px;
-  padding: 20px;
-  margin-bottom: 60px;
-  -webkit-box-shadow: 0 0 5px #788072;
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
