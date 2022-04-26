@@ -21,24 +21,21 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="相册内容      .+†+.                                                                                                 .+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="-分类相册-">
-<meta property="og:url" content="http://example.com/gallery/sample/index.html">
+  <meta name="description" content="Linux 0.11 内核完全剖析 笔记(1)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux 0.11 阅读笔记(1)">
+<meta property="og:url" content="http://example.com/machy/undefined.html">
 <meta property="og:site_name" content="Machy&#39;s Blog">
-<meta property="og:description" content="相册内容      .+†+.                                                                                                 .+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.">
+<meta property="og:description" content="Linux 0.11 内核完全剖析 笔记(1)">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/gallery/sample/img/s/sample.jpg">
-<meta property="og:image" content="http://example.com/gallery/sample/img/s/sample.jpg">
-<meta property="og:image" content="http://example.com/gallery/sample/img/s/sample.jpg">
-<meta property="article:published_time" content="2018-10-24T20:20:09.000Z">
-<meta property="article:modified_time" content="2019-03-31T05:17:48.000Z">
+<meta property="article:published_time" content="2022-04-26T14:58:30.000Z">
+<meta property="article:modified_time" content="2022-04-26T15:06:42.813Z">
 <meta property="article:author" content="mach-Y">
-<meta property="article:tag" content="el psy congroo">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="Technology">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/gallery/sample/img/s/sample.jpg">
 
-<link rel="canonical" href="http://example.com/gallery/sample/">
+<link rel="canonical" href="http://example.com/machy/undefined.html">
 
 
 <script id="page-configurations">
@@ -46,13 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>-分类相册- | Machy's Blog
-</title>
+  <title>Linux 0.11 阅读笔记(1) | Machy's Blog</title>
   
 
 
@@ -201,75 +197,209 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
-      <header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">-分类相册-
-</h1>
-
-<div class="post-meta">
   
-  <ul class="breadcrumb">
-          
-            <li><a href="/gallery/">GALLERY</a></li>
-          <li>SAMPLE</li>
-        
-  </ul>
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/machy/undefined.html">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/machy.jpg">
+      <meta itemprop="name" content="mach-Y">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Machy's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Linux 0.11 阅读笔记(1)
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-04-26 22:58:30 / 修改时间：23:06:42" itemprop="dateCreated datePublished" datetime="2022-04-26T22:58:30+08:00">2022-04-26</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/machy/undefined.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/machy/undefined.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="Linux-0-11-内核完全剖析-笔记-1"><a href="#Linux-0-11-内核完全剖析-笔记-1" class="headerlink" title="Linux 0.11 内核完全剖析 笔记(1)"></a>Linux 0.11 内核完全剖析 笔记(1)</h1><span id="more"></span>
+
+<h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><ul>
+<li><p>读者群定位：</p>
+<p>知晓Linuxx系统的一般使用方法或具有一定编程基础，但比较缺乏阅读目前最新内核源代码的基础知识，又急切希望能够进一步理解UNIX类操作系统内核工作原理和实际代码实现的爱好者。</p>
+</li>
+<li><p>本书的主要目标：</p>
+<p>使用尽量少的篇幅或在有限的篇幅内，对完整的Linux内核源代码进行全面解剖，以期对操作系统的基本功能和实际实现方式获得全方位的理解。做到对Linux内核有一个完整而深刻的理解，对Linux操作系统的基本工作原理真正理解和入门。</p>
+</li>
+<li><p>阅读早期内核的其他好处：</p>
+<ul>
+<li>目前已经出现很多基于Linux早期内核而开发的专门用于嵌入式系统的内核版本。如DJJ的x86操作系统、Uclinux等（在<a target="_blank" rel="noopener" href="http://www.linux.org上有专门目录)/">www.linux.org上有专门目录）</a></li>
+<li>早期内核源代码几乎就是目前使用的较新内核的一个精简版本。其中已经包括了目前新版本中几乎所有的基本功能原理的内容。</li>
+</ul>
+</li>
+<li><p>使用早期内核的不足：</p>
+<p>早期内核版本不包含对虚拟文件系统VFS的支持、对网络系统的支持、仅支持a.out执行文件和对其他一些现有内核中复杂子系统的说明。</p>
+</li>
+<li><p>阅读完整源代码的必要性：</p>
+<p>对整个系统的运作过程有深刻的理解。</p>
+</li>
+<li><p>选择0.11版本内核的原因：</p>
+<ul>
+<li>不超过两万行的代码量可以全部解释和注释清楚</li>
+<li>其中含有GNU gcc编译环境，可以使用该系统进行简单的开发工作。</li>
+<li>可以避免使用现有较新版本中越来越复杂的各子系统部分的研究（如虚拟文件系统VFS、ext4文件系统、网络子系统、新的复杂的内存管理机制等）</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li><p>阅读本书需具备的基础知识：</p>
+<ul>
+<li>C语言知识和Intel CPU 汇编语言知识</li>
+<li>嵌入式汇编语言的资料</li>
+<li>80x86处理器结构和编程的知识或资料（PC&#x2F;Pentuim实用 技术指南、80x86编程手册）</li>
+<li>有关80x86硬件体系结构和接口编程的知识或资料（PC&#x2F;Pentuim实用技术指南）</li>
+<li>初级使用Linux系统的简单技能</li>
+</ul>
+<blockquote>
+<p>Linus在最初开发Linux操作系统时，参照了MINIX操作系统。例如，最初的Linux内核版本完全照搬了MINIX 1.0文件系统。</p>
+<p>故可参考A.S.Tanenbaum的《操作系统：设计与实现》中的有关一般操作系统工作原理章节和文件系统实现的内容。（因为书中描述的信息交换是一种基于消息传递在内核各模块之间进行通信，这与Linux的工作机制不同）</p>
+</blockquote>
+</li>
+<li><p>Ext2文件系统与MINIX文件系统</p>
+<ul>
+<li>目前Linux系统上使用的Ext2（或最新的Ext4）文件系统是在内核1.x之后开发的，是目前Linux上默认的标准文件系统。</li>
+<li>Linux内核0.11版上当时仅包含最简单的MIXIN 1.0文件系统，足够理解一个操作系统中文件系统的实际组成和工作原理。</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+
+<div style="text-align:center;color: #ccc;font-size:14px;">---------------- The End ----------------</div>
+
+    
+    
+    
+      
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>mach-Y
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://example.com/machy/undefined.html" title="Linux 0.11 阅读笔记(1)">http://example.com/machy/undefined.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 </div>
 
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <center>相册内容</center>
-<center>
-    .+†+.</center>
-<div class="gallery-page">
-    <div class="img-list">
-        <div class="img-column">
-            <a href="img/sample.jpg" target="_Blank"><img src="img/s/sample.jpg"></a>
-        </div>
-        <div class="img-column">
-            <a href="img/sample.jpg" target="_Blank"><img src="img/s/sample.jpg"></a>
-        </div>
-        <div class="img-column">
-            <a href="img/sample.jpg" target="_Blank"><img src="img/s/sample.jpg"></a>
-    </div>
-</div>
-<center>.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.</center>
-
-      </div>
-      
-      
-      
-    </div>
-    
-  <ul class="breadcrumb">
-          
-            <li><a href="/gallery/">GALLERY</a></li>
-          <li>SAMPLE</li>
         
-  </ul>
 
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Linux/" rel="tag"># Linux</a>
+              <a href="/tags/Technology/" rel="tag"># Technology</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/machy/4a17b156.html" rel="prev" title="Hello World">
+      <i class="fa fa-chevron-left"></i> Hello World
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
     
-    
-    
+  </article>
+  
+  
+  
+
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -316,6 +446,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Linux-0-11-%E5%86%85%E6%A0%B8%E5%AE%8C%E5%85%A8%E5%89%96%E6%9E%90-%E7%AC%94%E8%AE%B0-1"><span class="nav-text">Linux 0.11 内核完全剖析 笔记(1)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BA%8F%E8%A8%80"><span class="nav-text">序言</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -469,7 +600,7 @@
       quicklink({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'http://example.com/gallery/sample/',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'http://example.com/machy/undefined.html',]
       });
       });
   </script>
